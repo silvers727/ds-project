@@ -54,7 +54,7 @@ public abstract class Message {
 	public static class RegisterResponse extends Message {
 
 		public RegisterResponse() {
-
+			
 		}
 
 		public RegisterResponse(final DataInputStream in) {
